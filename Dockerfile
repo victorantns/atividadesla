@@ -13,7 +13,7 @@ RUN addgroup -S devgroup && adduser -S dev -G devgroup -u ${UID} -h /home/dev
 
 RUN mkdir /opt/python-webapp
 
-RUN chown ${UID} /opt/python-werbapp
+RUN chown ${UID} /opt/python-webapp
 
 WORKDIR /opt/python-webapp
 
