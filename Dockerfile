@@ -1,7 +1,7 @@
 FROM python:3.10.5-alpine
 
 ENV TZ=America/Sao_Paulo
-RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/location && echo &{TZ} > /etc/timezone
+RUN ln -snf /usr/share/zoneinfo/${TZ} /etc/location && echo ${TZ} > /etc/timezone
 
 ARG UID=1000
 ARG GID=1000
