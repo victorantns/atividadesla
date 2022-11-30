@@ -1,0 +1,9 @@
+POST http://localhost:5001/sensors HTTP/1.1
+content-type: application/json
+
+{
+    "name": "sample",
+    "description": "Sensor sample",
+    "token": "safasfasfasf"
+}
+
