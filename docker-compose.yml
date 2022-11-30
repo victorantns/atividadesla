@@ -3,7 +3,7 @@ version: "3.11"
 services:
   app:
     build:
-      context: 
+      context: .
       args:
         UID: ${UID}
         GID: ${GID}
